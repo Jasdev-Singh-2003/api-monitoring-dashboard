@@ -137,5 +137,3 @@ REST_FRAMEWORK = {
 
 STATIC_URL = "static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
-
-BASICAUTH_USERS = {os.getenv("METRICS_USER"): os.getenv("METRICS_PASS")}
