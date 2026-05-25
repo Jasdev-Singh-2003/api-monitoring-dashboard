@@ -127,11 +127,12 @@ USE_TZ = True
 STATIC_URL = "static/"
 
 REST_FRAMEWORK = {
-    "DEFAULT_THROTTLE_CLASSES": [
-        "rest_framework.throttling.UserRateThrottle",
-    ],
+    # "DEFAULT_THROTTLE_CLASSES": [
+    #     "rest_framework.throttling.UserRateThrottle",
+    # ],
     "DEFAULT_THROTTLE_RATES": {
-        "user": "10/minute",
+        "user": "5/minute",
+        "anon": "5/minute",
     },
 }
 

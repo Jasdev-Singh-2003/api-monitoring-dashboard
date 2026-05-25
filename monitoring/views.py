@@ -1,5 +1,7 @@
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+from rest_framework.throttling import AnonRateThrottle
+from rest_framework.decorators import throttle_classes
 import time
 import random
 
@@ -7,6 +9,7 @@ from .metrics import api_requests_total, api_errors_total, api_latency_seconds
 
 
 @api_view(["GET"])
+@throttle_classes([AnonRateThrottle])
 def health_check(request):
     start = time.time()
 
