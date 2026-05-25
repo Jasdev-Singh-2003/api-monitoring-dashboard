@@ -42,20 +42,20 @@ Grafana Dashboards & Alerts
 ## Screenshots
 
 - Grafana dashboard (latency + errors)
-<img width="1820" height="1499" alt="grafana_final_01" src="https://github.com/user-attachments/assets/72bcec74-59a6-4f93-9010-231064bbb27d" />
+<img width="1820" height="1499" alt="grafana_final_01" src="https://github.com/user-attachments/assets/72bcec74-59a6-4f93-9010-231064bbb27d" /></br>
 
 - Alert firing state
-<img width="1455" height="779" alt="alert_grafana_01" src="https://github.com/user-attachments/assets/ab2329ca-cae4-4c4d-90d0-d86ef36fc45a" />
+<img width="1455" height="779" alt="alert_grafana_01" src="https://github.com/user-attachments/assets/ab2329ca-cae4-4c4d-90d0-d86ef36fc45a" /></br>
 
 - Email Alerts
-<img width="1494" height="93" alt="email_alert_grafana_01" src="https://github.com/user-attachments/assets/aba71fdc-113f-47e4-9d95-d7a714ea8c55" />
+<img width="1494" height="93" alt="email_alert_grafana_01" src="https://github.com/user-attachments/assets/aba71fdc-113f-47e4-9d95-d7a714ea8c55" /></br>
 
 - API responses
   - /api/health/
-    <img width="1617" height="552" alt="api_health_final_01" src="https://github.com/user-attachments/assets/f1ad8bf5-51b8-49f0-97ab-a663b14f068d" />
+    <img width="1617" height="552" alt="api_health_final_01" src="https://github.com/user-attachments/assets/f1ad8bf5-51b8-49f0-97ab-a663b14f068d" /></br>
 
   - /api/error/
-    <img width="1562" height="561" alt="api_error_final_01" src="https://github.com/user-attachments/assets/0d1c9de9-793d-4a79-bf2e-c3562695b6cd" />
+    <img width="1562" height="561" alt="api_error_final_01" src="https://github.com/user-attachments/assets/0d1c9de9-793d-4a79-bf2e-c3562695b6cd" /></br>
 
   - /api/slow/
     <img width="1561" height="564" alt="api_slow_final_01" src="https://github.com/user-attachments/assets/50506290-c424-47fe-8b6a-70ef4b5e2da6" />
